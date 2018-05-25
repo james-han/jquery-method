@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>append</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #test{
+            text-align: center;
+            width:100px;
+            height:50px;
+            line-height:50px;
+            margin:0 auto;
+            border:1px #5f2dab solid;
+            background-color: #8F9E28;
+        }
+        #test:hover{
+            cursor: pointer;
+        }
+        #parent{
+            border:1px #ffffff solid;
+        }
+        #parent div{
+            height:100px;
+            color:#cccccc;
+            text-align: center;
+            line-height:100px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+<div id="test">click to test</div>
+<div id="parent">
+    <div style='background-color:red'>red</div>
+    <div style='background-color:blue'>blue</div>
+    <div style='background-color:yellow'>yellow</div>
+    <div style='background-color:black'>black</div>
+</div>
+<script src="jquery.js"></script>
+<script src="jquery-method-append.js"></script>
+</body>
+</html>
